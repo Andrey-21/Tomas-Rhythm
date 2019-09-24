@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DosisLight';
+    src: url('fonts/DosisLight.eot');
+    src: url('fonts/DosisLight.eot') format('embedded-opentype'),
+         url('fonts/DosisLight.woff2') format('woff2'),
+         url('fonts/DosisLight.woff') format('woff'),
+         url('fonts/DosisLight.ttf') format('truetype'),
+         url('fonts/DosisLight.svg#DosisLight') format('svg');
+}

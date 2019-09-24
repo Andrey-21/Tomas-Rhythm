@@ -1,0 +1,47 @@
+// ========== DEFAULT CLASSES START ========== //
+.text-color-black {
+  color: $textColorBlack;
+}
+
+.text-color-white {
+  color: $textColorWhite;
+}
+
+.text-color-gray {
+  color: $textColorGray;
+}
+
+.bg-color-black {
+  background-color: $bgColorBlack;
+}
+
+.bg-color-white {
+  background-color: $bgColorWhite;
+}
+
+.bg-cover {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cur-pointer {
+   cursor: pointer;
+}
+
+.cur-default {
+   cursor: default;
+}
+
+.hide-scrollbar {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+   -webkit-appearance: none;
+   width: 0;
+   height: 0;
+}
+
+// ========== DEFAULT CLASSES END ========== //

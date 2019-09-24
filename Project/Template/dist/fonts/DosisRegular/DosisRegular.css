@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DosisRegular';
+    src: url('fonts/DosisRegular.eot');
+    src: url('fonts/DosisRegular.eot') format('embedded-opentype'),
+         url('fonts/DosisRegular.woff2') format('woff2'),
+         url('fonts/DosisRegular.woff') format('woff'),
+         url('fonts/DosisRegular.ttf') format('truetype'),
+         url('fonts/DosisRegular.svg#DosisRegular') format('svg');
+}

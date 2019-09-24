@@ -1,0 +1,57 @@
+@import 'grid/grid';
+@import 'core/core';
+@import 'plugins/plugins';
+@import 'partials/partials';
+@import 'layout/layout';
+@import 'pages/pages';
+
+.header {
+  background: url("../../dist/img/main-bg.png");
+  height: 100vh;
+
+  .main-menu {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .item-list {
+      display: flex;
+
+      .link {
+        color: $textColorLightGray;
+        font-family: $fontOpenSansLight;
+        margin-left: 35px;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    //height: 100%;
+    //max-height: 100%;
+
+    .title {
+      font-size: 30px;
+      letter-spacing: 50px;
+      margin-bottom: 100px;
+    }
+
+    .inner-title {
+      font-family: "OpenSansRegular";
+      font-size: 19px;
+      color: #323232;
+    }
+
+    .header-arrow {
+      width: 30px;
+      height: 30px;
+      background-color: $bgColorWhite;
+      transform: rotate(50deg);
+      border-radius: 5px;
+    }
+  }
+}

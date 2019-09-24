@@ -1,0 +1,45 @@
+// ========== SETTINGS START ========== //
+// ===== Fonts Start ===== //
+$fontDosisRegular: "DosisRegular", sans-serif;
+
+$fontBasic: $fontDosisRegular;
+$fontBasicSize: 15px;
+$fontBasicLineHeight: 1.5;  // 16 * 1.5 = 24px height of text element
+$fontBasicWeight: 400;
+
+$fontDosisLight: "DosisLight", sans-serif;
+
+$fontBasic: $fontDosisLight;
+$fontBasicSize: 15px;
+$fontBasicLineHeight: 1.5; // 16 * 1.5 = 24px height of text element
+$fontBasicWeight: 300;
+
+$fontOpenSansLight: "OpenSansLight", sans-serif;
+
+$fontBasic: $fontOpenSansLight;
+$fontBasicSize: 15px;
+$fontBasicLineHeight: 1.5; // 16 * 1.5 = 24px height of text element
+$fontBasicWeight: 300;
+
+$fontOpenSansRegular: "OpenSansRegular", sans-serif;
+
+$fontBasic: $fontOpenSansRegular;
+$fontBasicSize: 15px;
+$fontBasicLineHeight: 1.5; // 16 * 1.5 = 24px height of text element
+$fontBasicWeight: 400;
+// ===== Fonts End ===== //
+
+// ===== Colors Start ===== //
+// Bacground Colors //
+$bgColorBlack: #111111;
+$bgColorWhite: #fff;
+$bgColorLightGray: #F8F8F8;
+$bgColorGray: #CFCFCF;
+
+// Text Colors //
+$textColorBlack: #111111;
+$textColorWhite: #fff;
+$textColorGray: #777777;
+$textColorLightGray: #E7E7E7;
+// ===== Colors End ===== //
+// ========== SETTINGS END ========== //

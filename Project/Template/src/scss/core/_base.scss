@@ -1,0 +1,12 @@
+// ========== BASE START ========== //
+body {
+   font: $fontBasicWeight #{$fontBasicSize}/#{$fontBasicLineHeight} $fontBasic;
+   color: $textColorBlack;
+   background-color: $bgColorWhite;
+}
+
+::selection {
+  color: #fff;
+  background-color: #004fe4;
+}
+// ========== BASE END ========== //

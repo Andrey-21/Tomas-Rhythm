@@ -1,0 +1,31 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-tinypng-unlimited": "^1.0.3",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {
+    "default-passive-events": "^1.0.10",
+    "gulp-cli": "^2.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}

@@ -1,0 +1,14 @@
+.btn {
+  padding: 15px 40px;
+  font-family: "OpenSansRegular";
+  text-transform: uppercase;
+  background-color: $bgColorGray;
+  color: $textColorBlack;
+
+  &.btn-dark {
+    padding: 13px 20px;
+    background-color: $bgColorBlack;
+    color: $textColorWhite;
+  }
+}
+
